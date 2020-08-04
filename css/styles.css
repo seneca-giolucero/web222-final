@@ -1,0 +1,222 @@
+/* Add any CSS you need to this file. */
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+h1 {
+  color: white;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+p {
+  font-family: Work Sans, sans-serif;
+  color: #8f8f8f;
+}
+
+.reflection-text {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-weight: 500;
+}
+
+/* Headings*/
+
+.big-heading {
+  font-family: "Montserrat";
+  font-weight: 900;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.container-footer {
+  padding: 5% 15%;
+}
+
+.row {
+  padding: 50px 0;
+}
+
+.contact-row {
+  padding: 50px 0 20px;
+}
+
+.container-contact {
+  text-align: left;
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #7ea8c6;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-categories {
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr 4fr 4fr 4fr;
+  background-color: #b7efcd;
+  column-gap: 1em;
+  padding: 1rem;
+  text-align: center
+}
+
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/* Buttons */
+
+.button-category {
+  border: none;
+  border-radius: 10px;
+  color: var(--text-primary);
+  background-color: var(--bg-navbar);
+  text-align: left;
+  text-decoration: none;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.button-category:hover {
+  color: #fff;
+}
+
+.home-button {
+  margin: 10%;
+  margin-right: 50%;
+}
+
+/* Title Section */
+
+.container-fluid#title {
+  padding: 3% 7% 15%;
+  text-align: left;
+}
+
+/* Title Image */
+
+.title-img {
+  width: 80%;
+  position: absolute;
+  right: 10%
+}
+
+/* Call to Action Section */
+
+.cta-text {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Footer Section */
+
+.fa-icon {
+  color: black;
+  padding: 20px 10px;
+}
+
+.fa-icon:hover{
+  color: grey;
+}
+
+/* Wrapper */
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  row-gap: 1em;
+  column-gap: 1em;
+  padding: 2em;
+  margin: 1em;
+}
+
+.wrapper h2 {
+  font-weight: 700;
+  font-size: larger;
+  text-align: center;
+  padding-top: 5%;
+  border-top: 1.5px solid grey;
+  border-width: 2px;
+}
+
+.wrapper img {
+  padding: 5%;
+}
+
+.product img {
+  width: auto;
+  max-height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product p {
+  font-family: Work Sans, sans-serif;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 1028px) {
+
+#title {
+  text-align: center;
+}
+
+.title-img {
+  position: static;
+  transform: rotate(0);
+}
+
+}

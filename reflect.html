@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>vintage games</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+
+        <!-- External CSS Libraries - Bootstrap Scripts (For stylistic purposes) -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+        <!-- JS File -->
+        <script src="js/script.js" type="text/javascript"></script>
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,700,900|Ubuntu" rel="stylesheet">
+
+        <!-- CSS Style Sheets -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/styles.css" />
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    </head>
+    <body>
+        <section class="colored-section" id="title">
+
+            <div class="container-contact">
+        
+              <!-- Nav Bar -->
+              <nav class="navbar navbar-expand-lg navbar-dark">
+        
+                <a class="navbar-brand" href=""><img src="images/store-logo.png" alt="store logo" style="width: 2rem; height: 2rem; margin-right: 1rem;">vintage games</a>
+        
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                          <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="index.html">Buy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Reflect</a>
+                          </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+        
+                </div>
+              </nav>
+        
+              <!-- Title -->
+        
+              <div class="contact-row">
+        
+                <div class="col-lg-12">
+                  <h1>About Us</h1>
+                  <h3>Vintage Games was stablished in July 30, and is very excited to be in business. <br> hopes are that we can recieve an A+ upon grading!</h3>
+                </div>
+              </div>
+
+        </section>
+
+        <section class="white-section" id="reflection">
+            <div class="container-contact">
+                <h2>Reflection</h2>
+                <!-- Question 1 -->
+                <p class="reflect-text">
+                    This assignment was a great test of different concepts learned in the last couple weeks of web222. Specifically, many of the challenges I encountered dealt with managing the HTML
+                    form in the contact page, and validating user input. In order to create the correct script to properly manipulate the html components, I first had to understand how to use 'form' in HTML.
+                    As a reference, I used bootstrap's documentation on their website, as well as w3schools.com, which helped me to understand the input types and correct labelling for each component
+                    of the form. Next, I tried to understand the logic behind making a 'Order Number' box appear once the user clicked on 'Order Problem'. Eventually, I discovered that I could used keyword 'hidden' 
+                    in the div of the order number box. By doing so, I was able to create a conditional statement that would detect if the user clicked on Order Problem (using addEventListener('click')).
+                    If they did, the script would remove the attribute hidden from the Order Number and have it be displayed on screen.
+                </p>
+                <!-- Question 2 -->
+                <p>
+                    Debugging took a good amount my time in this project, especially when creating the form. My approach to debugging was to break down my problem in to smaller pieces so that I could 
+                    test different solutions without having to disassemble my whole form code. For example, I was having trouble creating the list of city names, which was to be revealed when the user
+                    clicks on the city box. For some reason, the word 'choose' kept appearing underneath the text box, and when I clicked the box, there would be a drop down list with no names. To 
+                    identify the problem, I looked up different documentation for html forms, and compared my code with others. After going line by line, I realized that I was mixing up the input 
+                    types and select types. I, then, switched city type to input and province one to select.
+                </p>
+                <!-- Question 3 -->
+                <p>
+                  My best advice for other web programmers when creating forms on their website is to break it down layer by layer, and try to understand what each part of the form does. This is because
+                  when you see a code sample of a form made in html, there can be a lot going on, specifically with input types, and adding additional keywords to create different functions (i.e hidden and
+                  invalid feedback). However, understanding forms is quite easy, and it takes some testing to finally understand. Having documentation to reference as I completed my form was essential because
+                  it allowed me to compare my code, and find some of my bugs. Another practical tip is to write down your flow of thinking to understand the logic of the form, so that when you, perhaps, create 
+                  a script to manipulate the form, it'll be easier to know what needs to be manipulated and how it can be done.
+                </p>
+                <p>
+                  Overall, I learned how to use documenation to identify the problems in my code, and find possible solutions to my code. This was my main method to complete this assingment.
+                </p>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="colored-section" id="cta">
+
+            <div class="container-fluid">
+
+            <h2 class="cta-text">Visit our social media</h2>
+            <a href="contact.html" class="btn btn-dark btn-lg button">Learn More</a>
+
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="white-section" id="footer">
+
+            <div class="container-footer">
+
+            <link class="fa-icon fab fa-twitter"></i><a href="https://twitter.com/"></link>
+            <link class="fa-icon fab fa-facebook-f"></i><a href="https://www.facebook.com/"></link>
+            <link class="fa-icon fab fa-instagram"></i><a href="https://www.instagram.com/"></link>
+            <link class="fa-icon fas fa-envelope"></i><a href = "mailto: abc@example.com"></a></link>
+            <p>Complete WEB222 Final Assignment</p>
+            <p>All images used from https://scryfall.com/</p>
+
+            </div>
+        </footer>
+        
+        <script src="" async defer></script>
+    </body>
+</html>
