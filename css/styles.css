@@ -112,6 +112,14 @@ p {
 
 /* Buttons */
 
+.started-button {
+  color: #fff;
+}
+
+.started-button:hover {
+  color: azure;
+}
+
 .button-category {
   border: none;
   border-radius: 10px;
